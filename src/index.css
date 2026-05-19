@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-minecraft-green: #3fb13e;
+  --color-minecraft-dark: #1e1e1e;
+  --color-minecraft-mud: #4e342e;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0f0f0f] text-gray-100 antialiased;
+  }
+}
+
+.brutal-border {
+  @apply border border-white/10;
+}
+
+.glass {
+  @apply bg-black/40 backdrop-blur-xl;
+}

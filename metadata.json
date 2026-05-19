@@ -1,0 +1,8 @@
+{
+  "name": "PluginVault",
+  "description": "A premium discovery engine for Minecraft plugins, featuring real-time search, category filtering, and immersive UI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
